@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Student Learning & feed</title>
+</head>
+
+<body>
+    <h1> Student Learning & feedback Portal </h1>
+    <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#learn">learn</a></li>
+        <li><a href="#Gallary">Gallary</a></li>
+        <li><a href="#location">location</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+    </ul>
+    <!-- about section  -->
+    <section id="About">
+        <h2>About This portal</h2>
+        <p>Welcome to the <b>Student Learning & feedback POrtal </b>- a space to learn, explore, and share your
+            educational experience. <br>
+            We believe in "Learning by Doing".Watch lessons, explore resource, and give your valuable feedback to
+            improve learning for everyone.</p>
+    </section>
+
+    <!-- couse section -->
+    <section id="Courses">
+        <h2>Available Courses </h2>
+        <p>Here are some popular courses with their prices &#40; inclusive of GST &#8377; &#41;:</p>
+        <table border="2" rules="all" cellpadding="5">
+            <caption>Our Top Couses </caption>
+            <thead>
+                <th>Couse Name </th>
+                <th>Duration </th>
+                <th>Price &#40; &#8377; &#41;</th>
+            </thead>
+            <tbody>
+                <td>HTML & Web structure </td>
+                <td>1 month </td>
+                <td>&#8377; 2,499</td>
+                <tr>
+                    <td>CSS styling & Design </td>
+                    <td>1.5 Months</td>
+                    <td>&#8377; 3,499</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript for beginners</td>
+                    <td>2 Months </td>
+                    <td>&#8377; 4,999</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Note: Students can avil a <span style="background-color: yellow;">10% discount</span> if they enroll for 2 or
+            more courses!</p>
+    </section>
+
+    <!-- learning video-->
+    <section id="learn">
+        <h2>Watch & Learn </h2>
+        <iframe src="https://www.youtube.com/embed/d_UTO-iptMs?si=uxScWYZhnhwxvVlW" title="YouTube video player"
+            frameborder="0" width="600px" height="400px"></iframe><br>
+        <figcaption>Watch this tutorial to start your HTML journey!</figcaption>
+
+    </section>
+    <hr>
+
+    <!-- pdf  -->
+    <section id="PDF">
+        <h2>Learn from this PDF</h2>
+        <p>You can go through our sample course material below. It includes basic to advance HTML topics</p>
+        <iframe
+            src="https://fatimatabassum743.github.io/Assignment-2/Complete%20HTML%20(2).docx%20-%20Google%20Docs%20(1).pdf"
+            frameborder="0" width="800px" height="400px"></iframe>
+        <p>if the PDF does't load, <a href="sample.pdf" download>click here to download </a></p>
+
+    </section>
+
+    <!-- Gallary section  -->
+    <section id="Gallary">
+        <h2>Our learning galary </h2>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+                alt="">
+            <figcaption>HTML - The foundation of the web</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+                alt="" width="250px" height="200px">
+            <figcaption>Interactive online classes</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+                alt="" width="250px" height="200px" alt="">
+            <figcaption>Student project presentation </figcaption>
+        </figure>
+    </section>
+
+    <!-- map sec  -->
+    <section id="location">
+        <h2>Visit our Learning Center</h2>
+        <figcaption>We are located at:</figcaption>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.6895582484026!2d86.1738957735337!3d23.687057391208604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4218a078e5d3d%3A0xe30f0dd8e378ecde!2sBokaro%20Steel%20City%20College!5e0!3m2!1sen!2sin!4v1759687361555!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- voice mail part -->
+    <section id="music">
+        <h2>Listen to HTML Tips</h2>
+        <audio src=""></audio>
+    </section>
+
+    <!-- student feedback section  -->
+    <section id="feedback">
+        <form action="/" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Student information </legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <br>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="course">Select Course</label>
+                <input type="text" id="course">
+                <br>
+                <br>
+                <label for="date">Join date</label>
+                Join date: <input type="date" id="date">
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback details</legend>
+                <label for="rating">Rate your Experience(1-10)</label>
+                <input type="range" id="rating">
+                <br>
+                <br>
+                <p>Would you recommend this course ?</p>
+                <label for="choice">Yes</label>
+                <input type="radio" name="choice" id="choice">
+                <label for="choices">No</label>
+                <input type="radio" name="choice" id="choices">
+                <br>
+                <br>
+                <label for="file">Upload Your Project screenshot :</label>
+                <input type="file" name="" id="file">
+                <br>
+                <br>
+                <label for="comments"> Your comments: </label>
+                <br>
+                <textarea name="comments" id="comments " placeholder="Write your feedback " cols="50"
+                    rows="5"></textarea>
+            </fieldset>
+            <button type="submit">Submit feedback</button>
+            <button type="reset">clear form </button>
+    </section>
+    </form>
+    <br>
+
+    <!-- footer part  -->
+    <footer>
+        <p>&copy; 2025 Kodez Academy; | All Rights Reserved</p>
+        <p>Follow us on : <a href="www.youtube.com/KodeZAcademy">youtube</a> <a href="mailto:7079aryan@gmail.com">Email Us</a></p>
+    </footer>
+</body>
+
+</html>
